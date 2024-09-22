@@ -1,0 +1,28 @@
+= Routes
+
+== General
+
+All API requests have to be made with the following headers:
+
+* `Username: <username>`
+* `Password: <pwdhash>`
+
+These will automatically provide the correct data for the user.
+
+== Calendar
+
+* GET /timeslots/<from_unix_timestamp>/<to_unix_timestamp>
+Get all timeslots starting in the given time range.
+
+* PUT /timeslots
+Create a new timeslot.
+
+* POST /timeslots/<name>
+Share a timeslot with another user.
+
+* UPDATE /timeslots/<id>
+Update a timeslot.
+
+* DELETE /timeslots/<id>
+Delete a timeslot.
+

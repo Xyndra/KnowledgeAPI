@@ -1,0 +1,9 @@
+= KnowledgeAPI
+
+This is the API for my (soon to come) knowledge base.
+
+For the API routes, take a look at xref:Routes.adoc[].
+
+
+
+KnowledgeAPI © 2024 by Sammy Hamdani(Xyndra) is licensed under Creative Commons Attribution-NonCommercial 4.0 International
